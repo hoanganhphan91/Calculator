@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        Toast.makeText(this, "Hello from Nguyễn Kim Khánh.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello from Hoàng Anh.", Toast.LENGTH_SHORT).show();
         addControl();
         addEvent();
     }
